@@ -54,4 +54,17 @@ return array(
 
 	'storage' => __DIR__.'/../app/storage',
 
+	/*
+	|--------------------------------------------------------------------------
+	| SR
+	|--------------------------------------------------------------------------
+	|
+	| The storage path is used by Laravel to store cached Blade views, logs
+	| and other pieces of information. You may modify the path here when
+	| you want to change the location of this directory for your apps.
+	|
+	*/
+
+	'src' => __DIR__.'/../src',
+
 );

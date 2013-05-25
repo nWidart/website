@@ -1,0 +1,53 @@
+* {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+
+header {
+    background: #272727;
+    height: 73px;
+    border-bottom: 7px solid #FB503C;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header h1 {
+    margin: 0;
+    float: left
+}
+
+header > nav > ul {
+    margin: 0;
+    float: right;
+    padding: 0;
+}
+
+header > nav > ul > li {
+    display: inline-block;
+    position: relative;
+}
+
+header > nav > ul > li > a{
+    display: block;
+    text-align: center;
+    padding: 30px 20px 30px 20px;
+}
+
+header > nav > ul > li > a.active {
+    background: #FB503C;
+}
+
+header ul li ul {
+    display: none;
+    position: absolute;
+}
+
+header ul li ul li {
+    display: block
+}
