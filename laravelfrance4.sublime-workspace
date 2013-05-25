@@ -1,0 +1,263 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Vagrantfile",
+			"settings":
+			{
+				"buffer_size": 2514,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 58.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/Sites/laravel-France/bundles/docs/documents/v4/eloquent.md",
+		"/E/Sites/laravel-France/bundles/docs/documents/v4/controllers.md",
+		"/E/Sites/laravel-France/bundles/forums/views/category/index.blade.php",
+		"/E/Sites/laravel-France/bundles/forums/config/forums.php",
+		"/E/Sites/laravel-France/bundles/forums/models/forumtopic.php",
+		"/E/Sites/laravel-France/bundles/forums/models/forumcategory.php",
+		"/E/Logiciels/mIRC/scripts/popups.ini",
+		"/E/Logiciels/mIRC/scripts/users.ini",
+		"/E/Sites/laravel-France/Vagrantfile",
+		"/E/Sites/laravel-France/vagrant-chef/chef/data_bags/sites/default.json",
+		"/C/Windows/System32/Drivers/etc/hosts",
+		"/E/Sites/laravel-France/bundles/oneauth/config/local/api.php",
+		"/E/Sites/laravel-France/paths.php",
+		"/E/Sites/laravel-France/bundles/oneauth/start.php",
+		"/E/Sites/laravel-France/application/config/database.php",
+		"/E/Sites/laravel-France/application/config/database.php.dist",
+		"/E/Sites/laravel-France/application/config/email.php",
+		"/E/Logiciels/mIRC/scripts/vars.ini",
+		"/E/Logiciels/mIRC/scripts/aliases.ini",
+		"/E/Logiciels/mIRC/scripts/AutoLogin.ini",
+		"/E/Sites/monprojet/Vagrantfile",
+		"/E/Logiciels/mIRC/defaults/mirc.ini",
+		"/E/Logiciels/mIRC/defaults/urls.ini",
+		"/E/Logiciels/mIRC/defaults/servers.ini",
+		"/C/Users/Julien/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/Julien/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"getAdminProfile",
+			"pastFromTenDays",
+			"default",
+			"app.local",
+			"git"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Vagrantfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2514,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1785,
+								1785
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 540.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "laravelfrance4.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"v4controllers.md",
+				"bundles\\docs\\documents\\v4\\controllers.md"
+			],
+			[
+				"v4eloquent.m",
+				"bundles\\docs\\documents\\v4\\eloquent.md"
+			],
+			[
+				"forumtopic",
+				"bundles\\forums\\models\\forumtopic.php"
+			],
+			[
+				"forumcategblade",
+				"bundles\\forums\\views\\category\\index.blade.php"
+			],
+			[
+				"forumconfig",
+				"bundles\\forums\\config\\forums.php"
+			],
+			[
+				"modelforum",
+				"bundles\\forums\\models\\forumtopic.php"
+			],
+			[
+				"bundleforummodel",
+				"bundles\\forums\\models\\forumcategory.php"
+			],
+			[
+				"oneauthstart",
+				"bundles\\oneauth\\start.php"
+			],
+			[
+				"vagran",
+				"Vagrantfile"
+			],
+			[
+				"vagrantf",
+				"Vagrantfile"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 249.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
