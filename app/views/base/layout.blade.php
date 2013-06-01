@@ -20,7 +20,7 @@
             </h1>
 
             <ul>
-                <li><a class="active" href="#"><i class="icon-home"></i>Accueil</a></li>
+                <li class="active"><a href="#"><i class="icon-home"></i>Accueil</a></li>
                 <li><a href="#"><i class="icon-book"></i> Documentation</a></li>
                 <li>
                     <a href="#"><i class="icon-group"></i> Communauté</a>

@@ -19,7 +19,16 @@ header a {
 
 header h1 {
     margin: 0;
-    float: left
+    float: left;
+    background: url('/img/laravel_logo.png') 15px 10px no-repeat;
+    height: 73px;
+    background-size: 73px;
+}
+
+header h1 a {
+    display: block;
+    padding-top: 15px;
+    padding-left: 100px;
 }
 
 header > nav > ul {
@@ -39,15 +48,33 @@ header > nav > ul > li > a{
     padding: 30px 20px 30px 20px;
 }
 
-header > nav > ul > li > a.active {
+header > nav > ul > li.active > a, header > nav > ul > li:hover > a {
     background: #FB503C;
 }
 
 header ul li ul {
     display: none;
     position: absolute;
+    background-color: #272727;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top: -5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
-header ul li ul li {
-    display: block
+header ul li:hover ul {
+    display: block;
+}
+
+header ul li ul li a {
+    display: block;
+    padding: 10px 10px;
+}
+
+header ul li ul li.active a, header ul li ul li:hover a {
+    background: #FB503C;
 }

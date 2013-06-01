@@ -3,25 +3,41 @@
 	{
 		"selected_items":
 		[
+			[
+				"text-de",
+				"text-decoration"
+			],
+			[
+				"inline",
+				"inline-block"
+			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "Vagrantfile",
-			"settings":
-			{
-				"buffer_size": 2514,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 58.0,
+		"height": 294.0,
 		"selected_items":
 		[
+			[
+				"space",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"packagage",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -47,6 +63,45 @@
 	},
 	"file_history":
 	[
+		"/E/Sites/lvlfr4/app/config/app.php",
+		"/E/Sites/lvlfr4/vendor/laravel/framework/src/Illuminate/Support/NamespacedItemResolver.php",
+		"/E/Sites/lvlfr4/vendor/laravel/framework/src/Illuminate/Translation/Translator.php",
+		"/E/Sites/lvlfr4/vendor/laravel/framework/src/Illuminate/Support/Facades/Lang.php",
+		"/E/Sites/lvlfr4/tests/acceptance/WelcomeCept.php",
+		"/E/Sites/lvlfr4/app/views/base/layout.blade.php",
+		"/E/Sites/lvlfr4/src/Lvlfr/Website/Controller/HomeController.php",
+		"/E/Sites/lvlfr4/app/routes.php",
+		"/E/Sites/lvlfr4/public/css/style.css",
+		"/E/Sites/lvlfr4/composer.json",
+		"/E/Sites/lvlfr4/bootstrap/compiled.php",
+		"/E/Sites/lvlfr4/laravelfrance4.sublime-project",
+		"/C/Users/Julien/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/E/Sites/lvlfr4/.gitignore",
+		"/E/Sites/lvlfr4/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php",
+		"/E/Sites/lvlfr4/src/Lvlfr/Website/routes.php",
+		"/E/Sites/lvlfr4/tests/acceptance.suite.yml",
+		"/E/Sites/lvlfr4/tests/functional.suite.yml",
+		"/E/Sites/lvlfr4/tests/_log/WelcomeCept.php.page.fail.html",
+		"/E/Sites/lvlfr4/tests/_log/acceptance-2013-05-25",
+		"/E/Sites/lvlfr4/src/Lvlfr/Website/views/index.blade.php",
+		"/E/Sites/lvlfr4/public/css/font-awesome.min.css",
+		"/E/Sites/lvlfr4/vendor/composer/autoload_real.php",
+		"/E/Sites/lvlfr4/public/css/normalize.css",
+		"/E/Sites/lvlfr4/public/js/moderniz.js",
+		"/E/Sites/lvlfr4/vendor/laravel/framework/src/Illuminate/Support/Facades/Blade.php",
+		"/E/Sites/lvlfr4/vendor/laravel/framework/src/Illuminate/View/Environment.php",
+		"/E/Sites/lvlfr4/src/Website/routes.php",
+		"/E/Sites/lvlfr4/src/Website/Controller/HomeController.php",
+		"/E/Sites/lvlfr4/src/Website/views/index.blade.php",
+		"/E/Sites/lvlfr4/bootstrap/autoload.php",
+		"/E/Sites/lvlfr4/vendor/autoload.php",
+		"/E/Sites/lvlfr4/vendor/laravel/framework/src/Illuminate/Foundation/Application.php",
+		"/E/Sites/lvlfr4/Vagrantfile",
+		"/E/Sites/lvlfr4/vagrant-chef/chef/data_bags/sites/default.json",
+		"/C/Users/Julien/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/E/Sites/lvlfr4/bootstrap/start.php",
+		"/E/Sites/lvlfr4/bootstrap/paths.php",
+		"/C/Windows/System32/Drivers/etc/hosts",
 		"/E/Sites/laravel-France/bundles/docs/documents/v4/eloquent.md",
 		"/E/Sites/laravel-France/bundles/docs/documents/v4/controllers.md",
 		"/E/Sites/laravel-France/bundles/forums/views/category/index.blade.php",
@@ -57,7 +112,6 @@
 		"/E/Logiciels/mIRC/scripts/users.ini",
 		"/E/Sites/laravel-France/Vagrantfile",
 		"/E/Sites/laravel-France/vagrant-chef/chef/data_bags/sites/default.json",
-		"/C/Windows/System32/Drivers/etc/hosts",
 		"/E/Sites/laravel-France/bundles/oneauth/config/local/api.php",
 		"/E/Sites/laravel-France/paths.php",
 		"/E/Sites/laravel-France/bundles/oneauth/start.php",
@@ -76,13 +130,14 @@
 	],
 	"find":
 	{
-		"height": 36.0
+		"height": 42.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 96.0,
 		"where_history":
 		[
+			"E:\\Sites\\lvlfr4\\vendor"
 		]
 	},
 	"find_state":
@@ -90,6 +145,29 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"load",
+			"loaded",
+			"parsekey",
+			"url",
+			"10px",
+			"header > ul",
+			" <li><a href=\"/\"",
+			"addNamespace",
+			"stopsection",
+			"show",
+			"stop",
+			"section",
+			"addLocation",
+			"$loader",
+			"namespace",
+			"path(",
+			"'",
+			"path(",
+			"path.",
+			"instance",
+			"path",
+			"path.",
+			"path",
 			"getAdminProfile",
 			"pastFromTenDays",
 			"default",
@@ -112,48 +190,18 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "Vagrantfile",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2514,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1785,
-								1785
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 540.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 36.0
+		"height": 34.0
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 36.0
 	},
 	"layout":
 	{
@@ -181,7 +229,7 @@
 	"project": "laravelfrance4.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -189,6 +237,66 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"app.",
+				"app\\config\\app.php"
+			],
+			[
+				"namespaceditemre",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Support\\NamespacedItemResolver.php"
+			],
+			[
+				"translator",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Translation\\Translator.php"
+			],
+			[
+				"lang",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Lang.php"
+			],
+			[
+				"style.css",
+				"public\\css\\style.css"
+			],
+			[
+				"font",
+				"public\\css\\font-awesome.min.css"
+			],
+			[
+				"blade",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Blade.php"
+			],
+			[
+				"bladeco",
+				"vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\BladeCompiler.php"
+			],
+			[
+				"compiled.php",
+				"bootstrap\\compiled.php"
+			],
+			[
+				"routes.php",
+				"src\\Lvlfr\\Website\\routes.php"
+			],
+			[
+				"lvlfrwbcon",
+				"src\\Lvlfr\\Website\\Controller\\HomeController.php"
+			],
+			[
+				"vendorautoload.php",
+				"vendor\\autoload.php"
+			],
+			[
+				"illuminate/foundation/application",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php"
+			],
+			[
+				"approute",
+				"app\\routes.php"
+			],
+			[
+				"illuapplication.",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php"
+			],
 			[
 				"v4controllers.md",
 				"bundles\\docs\\documents\\v4\\controllers.md"
