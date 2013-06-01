@@ -1,9 +1,33 @@
+@import url("http://fonts.googleapis.com/css?family=Lato:400,700,700italic,900,400italic,300");
+
+.preload * {
+    transition: none !important;
+}
+
 * {
-    font-family: Verdana, Arial, Helvetica, sans-serif;
+    transition: 0.5s
+}
+
+body {
+    font-family: Lato, sans-serif;
+    color: #333;
 }
 
 .clear {
     clear: both;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: Lato, sans-serif;
+    font-weight: 700;
+}
+
+#page h2 {
+    border-bottom: 2px solid #fb503c;
+}
+
+i[class^='icon-'] {
+margin-right: 5px;
 }
 
 header {
@@ -32,7 +56,7 @@ header h1 a {
 }
 
 header > nav > ul {
-    margin: 0;
+    margin: 0 5px 0 0;
     float: right;
     padding: 0;
 }
@@ -50,6 +74,8 @@ header > nav > ul > li > a{
 
 header > nav > ul > li.active > a, header > nav > ul > li:hover > a {
     background: #FB503C;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 header ul li ul {
@@ -68,6 +94,8 @@ header ul li ul {
 
 header ul li:hover ul {
     display: block;
+    box-sizing: border-box;
+    border: 3px solid  #FB503C;
 }
 
 header ul li ul li a {
@@ -77,4 +105,72 @@ header ul li ul li a {
 
 header ul li ul li.active a, header ul li ul li:hover a {
     background: #FB503C;
+}
+
+.fixedWithPage {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.form-line {
+    margin-bottom: 20px;
+}
+.form-line label {
+    display: block;
+    width: 160px;
+    float: left;
+    text-align: right;
+}
+
+.form-line .form-item {
+    margin-left: 180px;
+}
+
+input, textarea, select {
+    border: 2px solid #ccc;
+    padding: 3px;
+    border-radius: 4px;
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: #FF8476;
+    outline: 0;
+}
+
+.btn, button, input[type='submit'] {
+    padding:10px 35px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-orange {
+    background: #FB503C;
+    color:white;
+    border:1px solid #FB503C;
+}
+
+.btn-orange:hover {
+    background: #FF9B90;
+}
+
+.alert {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 15px auto;
+    border-radius: 8px;
+}
+
+.alert i[class^='icon-'] {
+    margin-right: 10px;
+}
+
+.alert-info {
+    border: 3px solid #2980B9;
+    background: #3498DB;
+    color: white;
+}
+
+.form-item span.error {
+    margin-left:10px;
+    color: red;
 }

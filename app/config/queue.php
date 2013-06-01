@@ -15,7 +15,7 @@ return array(
 	|
 	*/
 
-	'default' => 'sync',
+	'default' => 'iron',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -50,9 +50,9 @@ return array(
 
 		'iron' => array(
 			'driver'  => 'iron',
-			'project' => 'your-project-id',
-			'token'   => 'your-token',
-			'queue'   => 'your-queue-name',
+			'project' => '51aa0b772267d842ac0018b9',
+			'token'   => 'uMgcfXXOT2tfDZSZmbFKClyYgp4',
+			'queue'   => 'laravelfrance',
 		),
 
 	),

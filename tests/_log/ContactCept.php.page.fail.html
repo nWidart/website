@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+            </title>
+    <script src="/js/modernizr.js"></script>
+    <script src="/js/zepto.min.js"></script>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class=" preload">
+
+    <header>
+        <nav>
+            <h1 class="title">
+                <a href="/">Laravel France</a>
+            </h1>
+
+            <ul>
+                <li ><a href="/"><i class="icon-home"></i>Accueil</a></li>
+                <li><a href="#"><i class="icon-book"></i> Documentation</a></li>
+                <li>
+                    <a href="#"><i class="icon-group"></i> Communauté</a>
+                    <ul>
+                        <li><a href="#">Forums</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">IRC</a></li>
+                    </ul>
+                </li>
+                <li><a href="#"><i class="icon-github-sign"></i> Github</a></li>
+                <li class='active'><a href="http://lvldev.fr/contact/index"><i class="icon-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+        <div class="clear"></div>
+    </header>
+
+    <div id="page" class="container">
+        
+<div class="fixedWithPage">
+    <h2>Contact</h2>
+
+    <div class="alert alert-info">
+        <i class="icon-info-sign"></i> Si vous cherchez de l'aide pour Laravel, nous vous invitons à consulter les forums. <strong>Aucune aide ne sera apportée par e-mail.</strong> Merci de votre compréhension
+    </div>
+
+    <form method="POST" action="http://lvldev.fr/contact/index" accept-charset="UTF-8"><input name="_token" type="hidden" value="kSiChEgN5c41BpgucGXgULo63aur7H8QLmfpuJrU">
+        <div class="form-line">
+            <label for="nom">Nom* :</label>            <div class="form-item">
+                <input name="nom" type="text" value="Mon nom" id="nom">                            </div>
+        </div>
+
+        <div class="form-line">
+            <label for="email">Email* :</label>            <div class="form-item">
+                <input name="email" type="text" value="" id="email">                                <span class="error">Le champ email est obligatoire.</span>
+                            </div>
+        </div>
+
+        <div class="form-line">
+            <label for="sujet">Sujet :</label>            <div class="form-item">
+                <input name="sujet" type="text" value="" id="sujet">                            </div>
+        </div>
+
+        <div class="form-line">
+            <label for="contenu">Message* :</label>            <div class="form-item">
+                <textarea name="contenu" cols="50" rows="10" id="contenu">stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff</textarea>                            </div>
+        </div>
+
+        <div class="form-line">
+            <div class="form-item">
+                <input class="btn-orange" type="submit" value="Valider">            </div>
+        </div>
+
+    </form></div>
+
+
+        <footer>
+                    </footer>
+    </div><!--/.container-->
+</body>
+</html>
+
+<script>
+$(document).ready(function() {
+    $('body').removeClass('preload');
+});
+</script>

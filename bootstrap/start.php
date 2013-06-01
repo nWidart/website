@@ -28,7 +28,7 @@ $app->redirectIfTrailingSlash();
 
 $env = $app->detectEnvironment(array(
 
-	'local' => array('your-machine-name', 'lvldev.fr', '127.0.0.1'),
+	'local' => array('10.10.10.10', 'lvldev.fr', '127.0.0.1'),
 
 ));
 

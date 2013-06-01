@@ -6,12 +6,13 @@
         Bienvenue sur Laravel France
         @stop
     </title>
-    <script src="js/modernizr.js"></script>
+    <script src="/js/modernizr.js"></script>
+    <script src="/js/zepto.min.js"></script>
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/style.css">
 </head>
-<body class="@yield('page_class')">
+<body class="@yield('page_class') preload">
 
     <header>
         <nav>
@@ -20,7 +21,7 @@
             </h1>
 
             <ul>
-                <li class="active"><a href="#"><i class="icon-home"></i>Accueil</a></li>
+                <li @if(Request::is('/'))class='active'@endif><a href="/"><i class="icon-home"></i>Accueil</a></li>
                 <li><a href="#"><i class="icon-book"></i> Documentation</a></li>
                 <li>
                     <a href="#"><i class="icon-group"></i> Communauté</a>
@@ -30,9 +31,8 @@
                         <li><a href="#">IRC</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Github</a></li>
-                <li><a href="#"><i class="icon-envelope"></i> Contact</a></li>
-                <li><a href="#"><i class="icon-download-alt icon-white"></i> Telecharger</a></li>
+                <li><a href="#"><i class="icon-github-sign"></i> Github</a></li>
+                <li @if(Request::is('contact*'))class='active'@endif><a href="{{ URL::action('Lvlfr\Website\Controller\ContactController@getIndex') }}"><i class="icon-envelope"></i> Contact</a></li>
             </ul>
         </nav>
         <div class="clear"></div>
@@ -47,3 +47,9 @@
     </div><!--/.container-->
 </body>
 </html>
+
+<script>
+$(document).ready(function() {
+    $('body').removeClass('preload');
+});
+</script>
