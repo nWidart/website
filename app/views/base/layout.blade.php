@@ -19,7 +19,7 @@
                 <a href="{{ Config::get('app.url') }}"><img src="/img/laravel_logo.png" alt="Laravel logo"> Laravel France</a>
             </h1>
             <ul class="menu">
-                <li><a href="{{ URL::action('\Lvlfr\Documentation\Controller\DocumentationController@showDocs') }}" @if(Request::is('docs.*'))class='active'@endif><i class="icon-book"></i> Documentation</a></li>
+                <li @if(str_is('*docs.*', Request::root()))class='active'@endif><a href="{{ URL::action('\Lvlfr\Documentation\Controller\DocumentationController@showDocs') }}"><i class="icon-book"></i> Documentation</a></li>
                 <li>
                     <a href="#"><i class="icon-group"></i> Communauté</a>
                     <ul>
