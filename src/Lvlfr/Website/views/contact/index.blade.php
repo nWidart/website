@@ -12,11 +12,11 @@
     {{ Form::open(array('action' => 'Lvlfr\Website\Controller\ContactController@postIndex')) }}
 
         <div class="form-line">
-            {{ Form::label('nom', 'Nom* :')}}
+            {{ Form::label('name', 'Nom* :')}}
             <div class="form-item">
-                {{ Form::text('nom', Input::old('nom')) }}
-                @if ($errors->has('nom'))
-                <span class="error">{{ $errors->first('nom') }}</span>
+                {{ Form::text('name', Input::old('name')) }}
+                @if ($errors->has('name'))
+                <span class="error">{{ $errors->first('name') }}</span>
                 @endif
             </div>
         </div>
@@ -32,21 +32,21 @@
         </div>
 
         <div class="form-line">
-            {{ Form::label('sujet', 'Sujet :')}}
+            {{ Form::label('subject', 'Sujet :')}}
             <div class="form-item">
-                {{ Form::text('sujet', Input::old('sujet')) }}
-                @if ($errors->has('sujet'))
-                <span class="error">{{ $errors->first('sujet') }}</span>
+                {{ Form::text('subject', Input::old('subject')) }}
+                @if ($errors->has('subject'))
+                <span class="error">{{ $errors->first('subject') }}</span>
                 @endif
             </div>
         </div>
 
         <div class="form-line">
-            {{ Form::label('contenu', 'Message* :')}}
+            {{ Form::label('mailContent', 'Message* :')}}
             <div class="form-item">
-                {{ Form::textarea('contenu', Input::old('contenu')) }}
-                @if ($errors->has('contenu'))
-                <span class="error">{{ $errors->first('contenu') }}</span>
+                {{ Form::textarea('mailContent', Input::old('mailContent')) }}
+                @if ($errors->has('mailContent'))
+                <span class="error">{{ $errors->first('mailContent') }}</span>
                 @endif
             </div>
         </div>

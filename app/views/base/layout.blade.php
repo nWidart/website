@@ -3,7 +3,7 @@
 <head>
     <title>
         @section('title')
-        Bienvenue sur Laravel France
+            Bienvenue sur Laravel France
         @stop
     </title>
     <script src="/js/modernizr.js"></script>
@@ -44,7 +44,7 @@
         <footer>
             @yield('footer')
         </footer>
-    </div><!--/.container-->
+    </div>
 </body>
 </html>
 

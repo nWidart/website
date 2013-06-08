@@ -12,16 +12,16 @@
                         <p>Vous avez reçu un nouveau message sur le site <a href="http://laravel.fr">laravel.fr</a></p>
 
                         <p>
-                            <strong>Nom :</strong> {{ $nom }}<br />
+                            <strong>Nom :</strong> {{ $name }}<br />
                             <strong>Email :</strong> {{ $email }}<br />
-                            @if(isset($sujet))
-                            <strong>Sujet :</strong> Documentation<br />
+                            @if(isset($subject))
+                            <strong>Sujet :</strong> {{ $subject }}<br />
                             @endif
                             <strong>Message :</strong><br />
                         </p>
 
                         <p>
-                            {{ $contenu }}
+                            {{ $mailContent }}
                         </p>
                     </td>
                 </tr>

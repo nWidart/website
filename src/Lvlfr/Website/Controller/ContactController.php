@@ -24,7 +24,7 @@ class ContactController extends BaseController {
         $validator = new \Lvlfr\Website\Validation\ContactValidator(Input::all());
 
         if ($validator->passes()) {
-            $retourMail = Mail::queue('LvlfrWebsite::contact.email_content', Input::all(), function($m) {
+            Mail::queue('LvlfrWebsite::contact.email_content', Input::all(), function($m) {
                 $m->to('julien@laravel.fr', 'Julien Tant')->subject('Contact depuis Laravel.fr');
             });
 
