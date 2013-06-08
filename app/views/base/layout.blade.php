@@ -6,11 +6,14 @@
         Bienvenue sur Laravel France
         @stop
     </title>
-    <script src="/js/modernizr.js"></script>
-    <script src="/js/zepto.min.js"></script>
+
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/app.css">
+
+    <script src="/js/modernizr.js"></script>
+    <script src="/js/jquery.js"></script>
+    <script src="/js/app.js"></script>
 </head>
 <body class="@yield('page_class') preload">
     <header>
