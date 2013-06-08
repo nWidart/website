@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"head",
+				"header	Tag"
+			],
+			[
 				"Mail-q",
 				"Mail-qo	Mail-queueOn"
 			],
@@ -76,28 +80,102 @@
 	"buffers":
 	[
 		{
-			"file": "vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php",
 			"settings":
 			{
-				"buffer_size": 36952,
-				"line_ending": "Unix"
+				"buffer_size": 0,
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php",
+			"file": "app/config/app.php",
 			"settings":
 			{
-				"buffer_size": 17220,
-				"line_ending": "Unix"
+				"buffer_size": 7386,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/routes.php",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/start/global.php",
+			"settings":
+			{
+				"buffer_size": 2914,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/modules.php",
+			"settings":
+			{
+				"buffer_size": 909,
+				"line_ending": "Windows",
+				"name": "modules.php"
+			}
+		},
+		{
+			"file": "src/Lvlfr/Website/routes.php",
+			"settings":
+			{
+				"buffer_size": 150,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "bootstrap/start.php",
+			"settings":
+			{
+				"buffer_size": 2386,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/Lvlfr/Documentation/Controller/DocumentationController.php",
+			"settings":
+			{
+				"buffer_size": 112,
+				"line_ending": "Windows",
+				"name": "DocumentationController.php"
+			}
+		},
+		{
+			"file": "src/Lvlfr/Documentation/routes.php",
+			"settings":
+			{
+				"buffer_size": 198,
+				"line_ending": "Windows",
+				"name": "routes.php"
+			}
+		},
+		{
+			"file": "vendor/laravel/framework/src/Illuminate/Support/Facades/Config.php",
+			"settings":
+			{
+				"buffer_size": 225,
+				"line_ending": "Windows"
 			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 41.0,
 		"selected_items":
 		[
+			[
+				"convert",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"tabs",
+				"View: Toggle Tabs"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -131,7 +209,7 @@
 				"Indentation: Reindent Lines"
 			]
 		],
-		"width": 400.0
+		"width": 512.0
 	},
 	"console":
 	{
@@ -151,17 +229,30 @@
 	},
 	"file_history":
 	[
+		"/E/Sites/lvlfr4/app/config/local/app.php",
+		"/E/Sites/lvlfr4/app/database/migrations/2013_06_08_121442_create_table_blog.php",
+		"/E/Sites/lvlfr4/app/config/local/database.php",
+		"/E/Sites/lvlfr4/app/storage/logs/log-apache2handler-2013-05-25.txt",
+		"/E/Sites/lvlfr4/app/storage/logs/log-apache2handler-2013-06-01.txt",
+		"/E/Sites/lvlfr4/app/storage/logs/log-cli-2013-05-25.txt",
+		"/E/Sites/lvlfr4/app/storage/logs/log-cli-2013-06-01.txt",
+		"/E/Sites/lvlfr4/app/storage/logs/log-cli-2013-06-08.txt",
+		"/E/Sites/lvlfr4/Vagrantfile",
+		"/E/Sites/lvlfr4/public/css/style.css",
+		"/E/Sites/lvlfr4/src/Lvlfr/Website/views/contact/index.blade.php",
+		"/E/Sites/lvlfr4/src/Lvlfr/Website/views/contact/email_content.blade.php",
+		"/E/Sites/lvlfr4/src/Lvlfr/Website/Validation/ContactValidator.php",
+		"/E/Sites/lvlfr4/src/Lvlfr/Website/Controller/ContactController.php",
+		"/E/Sites/lvlfr4/src/Lvlfr/Website/views/index.blade.php",
+		"/E/Sites/lvlfr4/app/views/base/layout.blade.php",
+		"/E/Sites/lvlfr4/src/Lvlfr/Website/views/contact/success.blade.php",
+		"/E/Sites/lvlfr4/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php",
+		"/E/Sites/lvlfr4/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php",
 		"/E/Sites/lvlfr4/vendor/doctrine/dbal/lib/Doctrine/DBAL/Query/QueryBuilder.php",
 		"/E/Sites/lvlfr4/tests/acceptance/WelcomeCept.php",
 		"/E/Sites/lvlfr4/tests/acceptance/ContactCept.php",
-		"/E/Sites/lvlfr4/src/Lvlfr/Website/views/contact/email_content.blade.php",
-		"/E/Sites/lvlfr4/src/Lvlfr/Website/views/contact/success.blade.php",
-		"/E/Sites/lvlfr4/src/Lvlfr/Website/Controller/ContactController.php",
 		"/E/Sites/lvlfr4/app/config/app.php",
-		"/E/Sites/lvlfr4/src/Lvlfr/Website/views/contact/index.blade.php",
 		"/E/Sites/laravel-France/bundles/docs/documents/4/eloquent.md",
-		"/E/Sites/lvlfr4/src/Lvlfr/Website/Validation/ContactValidator.php",
-		"/E/Sites/lvlfr4/public/css/style.css",
 		"/E/Sites/lvlfr4/bootstrap/start.php",
 		"/E/Sites/lvlfr4/app/config/queue.php",
 		"/E/Sites/lvlfr4/app/config/local/queue.php",
@@ -172,7 +263,6 @@
 		"/E/Sites/lvlfr4/composer.json",
 		"/E/Sites/lvlfr4/vendor/laravel/framework/src/Illuminate/Support/Facades/Config.php",
 		"/E/Sites/lvlfr4/vendor/laravel/framework/src/Illuminate/Support/MessageBag.php",
-		"/E/Sites/lvlfr4/app/views/base/layout.blade.php",
 		"/E/Sites/lvlfr4/app/services/validator.php",
 		"/E/Sites/lvlfr4/src/Lvlfr/Website/views/contact.blade.php",
 		"/E/Sites/lvlfr4/vendor/laravel/framework/src/Illuminate/Translation/Translator.php",
@@ -201,7 +291,6 @@
 		"/E/Sites/lvlfr4/tests/functional.suite.yml",
 		"/E/Sites/lvlfr4/tests/_log/WelcomeCept.php.page.fail.html",
 		"/E/Sites/lvlfr4/tests/_log/acceptance-2013-05-25",
-		"/E/Sites/lvlfr4/src/Lvlfr/Website/views/index.blade.php",
 		"/E/Sites/lvlfr4/public/css/font-awesome.min.css",
 		"/E/Sites/lvlfr4/vendor/composer/autoload_real.php",
 		"/E/Sites/lvlfr4/public/css/normalize.css",
@@ -214,7 +303,6 @@
 		"/E/Sites/lvlfr4/bootstrap/autoload.php",
 		"/E/Sites/lvlfr4/vendor/autoload.php",
 		"/E/Sites/lvlfr4/vendor/laravel/framework/src/Illuminate/Foundation/Application.php",
-		"/E/Sites/lvlfr4/Vagrantfile",
 		"/E/Sites/lvlfr4/vagrant-chef/chef/data_bags/sites/default.json",
 		"/C/Users/Julien/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/E/Sites/lvlfr4/bootstrap/paths.php",
@@ -254,6 +342,7 @@
 		"height": 96.0,
 		"where_history":
 		[
+			"E:\\Sites\\lvlfr4\\app",
 			"E:\\Sites\\lvlfr4\\vendor",
 			"E:\\Sites\\lvlfr4\\vendor\\laravel",
 			"E:\\Sites\\lvlfr4\\vendor"
@@ -264,6 +353,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"moduleViewPath",
+			"createViewNamespace",
+			"local",
+			"dev",
+			"div",
+			"{",
+			"'contenu'",
+			"'sujet'",
+			"sujet",
+			"#page",
 			"relati",
 			"where",
 			"table->softDeletes",
@@ -338,51 +437,51 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 8,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 36952,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12482,
-								12489
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"default_dir": "E:\\Sites\\lvlfr4\\src\\Lvlfr\\Blog",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 30334.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php",
+					"file": "app/config/app.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 17220,
+						"buffer_size": 7386,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11631,
-								11637
+								892,
+								892
 							]
 						],
 						"settings":
@@ -390,7 +489,226 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 11682.0,
+						"translation.y": 346.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/routes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/start/global.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2914,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2914,
+								2914
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1716.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/modules.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 909,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								420,
+								420
+							]
+						],
+						"settings":
+						{
+							"auto_name": "modules.php",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/Lvlfr/Website/routes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 150,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6,
+								6
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "bootstrap/start.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2386,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								997,
+								997
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 312.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/Lvlfr/Documentation/Controller/DocumentationController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 112,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								109,
+								109
+							]
+						],
+						"settings":
+						{
+							"auto_name": "DocumentationController.php",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/Lvlfr/Documentation/routes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 198,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								165,
+								165
+							]
+						],
+						"settings":
+						{
+							"auto_name": "routes.php",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "vendor/laravel/framework/src/Illuminate/Support/Facades/Config.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 225,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								225,
+								225
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -441,6 +759,34 @@
 		"selected_items":
 		[
 			[
+				"illuminateconfig.",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Config.php"
+			],
+			[
+				"createtableblo",
+				"app\\database\\migrations\\2013_06_08_121442_create_table_blog.php"
+			],
+			[
+				"vagrant",
+				"Vagrantfile"
+			],
+			[
+				"stylecss",
+				"public\\css\\style.css"
+			],
+			[
+				"baselayout",
+				"app\\views\\base\\layout.blade.php"
+			],
+			[
+				"indexblade",
+				"src\\Lvlfr\\Website\\views\\index.blade.php"
+			],
+			[
+				"srcviewblade",
+				"src\\Lvlfr\\Website\\views\\contact\\index.blade.php"
+			],
+			[
 				"eloquent",
 				"vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php"
 			],
@@ -463,10 +809,6 @@
 			[
 				"queu",
 				"app\\config\\queue.php"
-			],
-			[
-				"stylecss",
-				"public\\css\\style.css"
 			],
 			[
 				"success",

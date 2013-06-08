@@ -26,7 +26,8 @@ return array(
 	|
 	*/
 
-	'url' => 'http://laravel.fr',
+    'url' => 'http://laravel.fr',
+    'domain' => 'laravel.fr',
 
 	/*
 	|--------------------------------------------------------------------------
