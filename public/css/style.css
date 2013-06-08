@@ -32,13 +32,13 @@ i[class^='icon-'] {
 margin-right: 5px;
 }
 
-header {
+body > header {
     background: #272727;
     height: 73px;
     border-bottom: 7px solid #FB503C;
 }
 
-header a {
+body > header a {
     color: white;
     text-decoration: none;
 }
