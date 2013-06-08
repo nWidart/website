@@ -20,6 +20,8 @@ body {
 h1, h2, h3, h4, h5 {
     font-family: Lato, sans-serif;
     font-weight: 700;
+    margin: 0;
+    padding: 0;
 }
 
 #page h2 {
@@ -109,7 +111,7 @@ header ul li ul li.active a, header ul li ul li:hover a {
 
 .fixedWithPage {
     width: 1200px;
-    margin: 0 auto;
+    margin: 20px auto 0;
 }
 
 .form-line {
@@ -141,6 +143,12 @@ input:focus, textarea:focus, select:focus {
     padding:10px 35px;
     border-radius: 5px;
     text-decoration: none;
+    text-align: center;
+}
+
+.btn.fullWidth {
+    width: 100%;
+    display: inline-block;
 }
 
 .btn-orange {

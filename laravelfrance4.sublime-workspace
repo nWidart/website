@@ -4,6 +4,66 @@
 		"selected_items":
 		[
 			[
+				"Mail-q",
+				"Mail-qo	Mail-queueOn"
+			],
+			[
+				"debug",
+				"debug_print_backtrace"
+			],
+			[
+				"Mail",
+				"Mail-send	Mail-send"
+			],
+			[
+				"error",
+				"errors"
+			],
+			[
+				"Redir",
+				"Redir-back	Redir-back"
+			],
+			[
+				"attr",
+				"attributes"
+			],
+			[
+				"URL-a",
+				"URL-action	URL-action"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"Formb",
+				"Form-submit	Form-submit"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"compli",
+				"compiledRoute"
+			],
+			[
+				"comp",
+				"compiledRoute"
+			],
+			[
+				"Form",
+				"Form-open	Form-open"
+			],
+			[
+				"border-top-",
+				"border-top-left-radius"
+			],
+			[
 				"text-de",
 				"text-decoration"
 			],
@@ -15,13 +75,45 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php",
+			"settings":
+			{
+				"buffer_size": 36952,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php",
+			"settings":
+			{
+				"buffer_size": 17220,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 294.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"blade",
+				"Set Syntax: PHP - Laravel Blade"
+			],
 			[
 				"space",
 				"Indentation: Convert to Spaces"
@@ -37,10 +129,6 @@
 			[
 				"reinde",
 				"Indentation: Reindent Lines"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			]
 		],
 		"width": 400.0
@@ -63,22 +151,52 @@
 	},
 	"file_history":
 	[
-		"/E/Sites/lvlfr4/app/config/app.php",
-		"/E/Sites/lvlfr4/vendor/laravel/framework/src/Illuminate/Support/NamespacedItemResolver.php",
-		"/E/Sites/lvlfr4/vendor/laravel/framework/src/Illuminate/Translation/Translator.php",
-		"/E/Sites/lvlfr4/vendor/laravel/framework/src/Illuminate/Support/Facades/Lang.php",
+		"/E/Sites/lvlfr4/vendor/doctrine/dbal/lib/Doctrine/DBAL/Query/QueryBuilder.php",
 		"/E/Sites/lvlfr4/tests/acceptance/WelcomeCept.php",
+		"/E/Sites/lvlfr4/tests/acceptance/ContactCept.php",
+		"/E/Sites/lvlfr4/src/Lvlfr/Website/views/contact/email_content.blade.php",
+		"/E/Sites/lvlfr4/src/Lvlfr/Website/views/contact/success.blade.php",
+		"/E/Sites/lvlfr4/src/Lvlfr/Website/Controller/ContactController.php",
+		"/E/Sites/lvlfr4/app/config/app.php",
+		"/E/Sites/lvlfr4/src/Lvlfr/Website/views/contact/index.blade.php",
+		"/E/Sites/laravel-France/bundles/docs/documents/4/eloquent.md",
+		"/E/Sites/lvlfr4/src/Lvlfr/Website/Validation/ContactValidator.php",
+		"/E/Sites/lvlfr4/public/css/style.css",
+		"/E/Sites/lvlfr4/bootstrap/start.php",
+		"/E/Sites/lvlfr4/app/config/queue.php",
+		"/E/Sites/lvlfr4/app/config/local/queue.php",
+		"/E/Sites/lvlfr4/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SyncConnector.php",
+		"/E/Sites/lvlfr4/app/config/local/mail.php",
+		"/E/Sites/lvlfr4/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php",
+		"/E/Sites/lvlfr4/app/config/mail.php",
+		"/E/Sites/lvlfr4/composer.json",
+		"/E/Sites/lvlfr4/vendor/laravel/framework/src/Illuminate/Support/Facades/Config.php",
+		"/E/Sites/lvlfr4/vendor/laravel/framework/src/Illuminate/Support/MessageBag.php",
 		"/E/Sites/lvlfr4/app/views/base/layout.blade.php",
+		"/E/Sites/lvlfr4/app/services/validator.php",
+		"/E/Sites/lvlfr4/src/Lvlfr/Website/views/contact.blade.php",
+		"/E/Sites/lvlfr4/vendor/laravel/framework/src/Illuminate/Translation/Translator.php",
+		"/E/Sites/lvlfr4/app/start/global.php",
+		"/E/Sites/lvlfr4/src/Lvlfr/Website/routes.php",
+		"/E/Sites/lvlfr4/app/filters.php",
+		"/E/Sites/lvlfr4/vendor/laravel/framework/src/Illuminate/Http/Request.php",
+		"/E/Sites/lvlfr4/app/controllers/BaseController.php",
+		"/E/Sites/lvlfr4/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php",
+		"/E/Sites/lvlfr4/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php",
+		"/E/Sites/lvlfr4/vendor/laravel/framework/src/Illuminate/Routing/Route.php",
+		"/E/Sites/lvlfr4/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+		"/E/Sites/lvlfr4/vendor/symfony/routing/Symfony/Component/Routing/Matcher/UrlMatcher.php",
+		"/E/Sites/lvlfr4/vendor/symfony/routing/Symfony/Component/Routing/RouteCollection.php",
+		"/E/Sites/lvlfr4/vendor/symfony/routing/Symfony/Component/Routing/RequestContext.php",
+		"/E/Sites/lvlfr4/bootstrap/compiled.php",
+		"/E/Sites/lvlfr4/vendor/laravel/framework/src/Illuminate/Support/NamespacedItemResolver.php",
+		"/E/Sites/lvlfr4/vendor/laravel/framework/src/Illuminate/Support/Facades/Lang.php",
 		"/E/Sites/lvlfr4/src/Lvlfr/Website/Controller/HomeController.php",
 		"/E/Sites/lvlfr4/app/routes.php",
-		"/E/Sites/lvlfr4/public/css/style.css",
-		"/E/Sites/lvlfr4/composer.json",
-		"/E/Sites/lvlfr4/bootstrap/compiled.php",
 		"/E/Sites/lvlfr4/laravelfrance4.sublime-project",
 		"/C/Users/Julien/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/E/Sites/lvlfr4/.gitignore",
 		"/E/Sites/lvlfr4/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php",
-		"/E/Sites/lvlfr4/src/Lvlfr/Website/routes.php",
 		"/E/Sites/lvlfr4/tests/acceptance.suite.yml",
 		"/E/Sites/lvlfr4/tests/functional.suite.yml",
 		"/E/Sites/lvlfr4/tests/_log/WelcomeCept.php.page.fail.html",
@@ -99,7 +217,6 @@
 		"/E/Sites/lvlfr4/Vagrantfile",
 		"/E/Sites/lvlfr4/vagrant-chef/chef/data_bags/sites/default.json",
 		"/C/Users/Julien/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
-		"/E/Sites/lvlfr4/bootstrap/start.php",
 		"/E/Sites/lvlfr4/bootstrap/paths.php",
 		"/C/Windows/System32/Drivers/etc/hosts",
 		"/E/Sites/laravel-France/bundles/docs/documents/v4/eloquent.md",
@@ -137,6 +254,8 @@
 		"height": 96.0,
 		"where_history":
 		[
+			"E:\\Sites\\lvlfr4\\vendor",
+			"E:\\Sites\\lvlfr4\\vendor\\laravel",
 			"E:\\Sites\\lvlfr4\\vendor"
 		]
 	},
@@ -145,6 +264,35 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"relati",
+			"where",
+			"table->softDeletes",
+			"carbon",
+			"wantTo",
+			"swift",
+			"$swift",
+			"swift",
+			"sendswi",
+			"errors->has",
+			"var_",
+			"function is",
+			")",
+			"nom",
+			"Votre",
+			"nom",
+			"return",
+			"this->routes",
+			"getUrlMatcher",
+			"match\nmatch",
+			"match",
+			"findRoute",
+			"findroute\nfindRoute",
+			"findroute",
+			"function match",
+			"findroute",
+			"callMetho",
+			"size",
+			"top",
 			"load",
 			"loaded",
 			"parsekey",
@@ -190,8 +338,63 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 36952,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12482,
+								12489
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 30334.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17220,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11631,
+								11637
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 11682.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -237,6 +440,122 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"eloquent",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php"
+			],
+			[
+				"illuquery",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php"
+			],
+			[
+				"querybuild",
+				"vendor\\doctrine\\dbal\\lib\\Doctrine\\DBAL\\Query\\QueryBuilder.php"
+			],
+			[
+				"cept.php",
+				"tests\\acceptance\\WelcomeCept.php"
+			],
+			[
+				"contactcep",
+				"tests\\acceptance\\ContactCept.php"
+			],
+			[
+				"queu",
+				"app\\config\\queue.php"
+			],
+			[
+				"stylecss",
+				"public\\css\\style.css"
+			],
+			[
+				"success",
+				"src\\Lvlfr\\Website\\views\\contact\\success.blade.php"
+			],
+			[
+				"mailer",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Mailer.php"
+			],
+			[
+				"mail",
+				"app\\config\\mail.php"
+			],
+			[
+				"illuminconfig",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Config.php"
+			],
+			[
+				"composerjson",
+				"composer.json"
+			],
+			[
+				"contactva",
+				"src\\Lvlfr\\Website\\Validation\\ContactValidator.php"
+			],
+			[
+				"messagebag",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Support\\MessageBag.php"
+			],
+			[
+				"contactcontr",
+				"src\\Lvlfr\\Website\\Controller\\ContactController.php"
+			],
+			[
+				"validator",
+				"app\\services\\validator.php"
+			],
+			[
+				"servcali",
+				"app\\services\\validator.php"
+			],
+			[
+				"request",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Http\\Request.php"
+			],
+			[
+				"filter",
+				"app\\filters.php"
+			],
+			[
+				"basecontro",
+				"app\\controllers\\BaseController.php"
+			],
+			[
+				"style.cs",
+				"public\\css\\style.css"
+			],
+			[
+				"illuurlge",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php"
+			],
+			[
+				"urlmatcher",
+				"vendor\\symfony\\routing\\Symfony\\Component\\Routing\\Matcher\\UrlMatcher.php"
+			],
+			[
+				"requestcontex",
+				"vendor\\symfony\\routing\\Symfony\\Component\\Routing\\RequestContext.php"
+			],
+			[
+				"illuminate/routing/route",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php"
+			],
+			[
+				"illuminate/routing/rout",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php"
+			],
+			[
+				"compiled",
+				"bootstrap\\compiled.php"
+			],
+			[
+				"illuminate/routing/controllers/controller",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controllers\\Controller.php"
+			],
+			[
+				"layout",
+				"app\\views\\base\\layout.blade.php"
+			],
 			[
 				"app.",
 				"app\\config\\app.php"
