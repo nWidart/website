@@ -1,7 +1,7 @@
 @extends('base.layout')
 
 @section('content')
-<div class="fixedWithPage" id="pageDoc">
+<div class="container" id="pageDoc">
 
     <div class="sidebar">
         @yield('sidebar')
