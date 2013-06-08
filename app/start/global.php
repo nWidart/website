@@ -82,3 +82,14 @@ App::down(function()
 */
 
 require app_path().'/filters.php';
+
+
+/*
+|-------------------------------------------------------------------------
+| Registeting modules
+| ------------------------------------------------------------------------
+|
+| And finally, we include the code which handles the creation of modules
+|
+*/
+require app_path().'/modules.php';
