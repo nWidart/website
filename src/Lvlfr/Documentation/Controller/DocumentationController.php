@@ -2,6 +2,12 @@
 
 namespace Lvlfr\Documentation\Controller;
 
+use \Config;
+use \dflydev\markdown\MarkdownParser as Markdown;
+use \File;
+use \DOMDocument;
+use \View;
+
 class DocumentationController extends \BaseController {
 
     public function showDocs($version = null, $document = null)
@@ -30,7 +36,7 @@ class DocumentationController extends \BaseController {
             // Walk through the data array, loading documentation from
             // the filesystem and converting it to markdown for display
             // on the documentation pages.
-            array_walk($data, function(&$raw) use ($markdown) {
+            array_walk($data, function(&$raw) use ($markdown, $versionConfig) {
                 $path = base_path().Config::get('docs.path', '/docs') . '/' . $versionConfig['path'];
                 $raw = File::get($path."/{$raw}.md");
                 $raw = $markdown->transformMarkdown($raw);
@@ -47,7 +53,7 @@ class DocumentationController extends \BaseController {
 
         // Parse the index to find out the next and previous pages and add links to them in the footer
         $dom = new DOMDocument();
-        $dom->loadHTML($data['index']);
+        $dom->loadHTML($data['menu']);
 
         $data['prev'] = false;
         $data['next'] = false;
@@ -59,6 +65,7 @@ class DocumentationController extends \BaseController {
 
             $link['URI'] = $domLink->getAttribute('href');
             $link['title'] = $domLink->nodeValue;
+
             if($foundCurrent)
             {
                 $data['next'] = $link;
@@ -66,10 +73,10 @@ class DocumentationController extends \BaseController {
             }
             else
             {
-                $foundCurrent = (str_replace(Config::get('docs.basehref', '/docs/'), '', $link['URI']) == $document);
+                $foundCurrent = (str_replace('/'.$version.'/', '', $link['URI']) == $document);
 
                 if(!$foundCurrent)
-                    $data['prev'] = $link;
+                    $data['prev'] = (!$link['title']) ? null : $link;
                 else
                     $data['title'] = $link['title'];
             }
@@ -77,7 +84,7 @@ class DocumentationController extends \BaseController {
 
         // Show the documentation template, which extends our master template
         // and provides a documentation index within the sidebar section.
-        return View::make('docs', $data);
+        return View::make('LvlfrDocumentation::docs', $data);
     }
 
 }

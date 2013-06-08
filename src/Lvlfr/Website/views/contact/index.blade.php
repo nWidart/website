@@ -1,8 +1,7 @@
 @extends('base.layout')
 
 @section('content')
-
-<div class="fixedWithPage">
+<div class="container">
     <h2>Contact</h2>
 
     <div class="alert alert-info">

@@ -3,26 +3,23 @@
 <head>
     <title>
         @section('title')
-            Bienvenue sur Laravel France
+        Bienvenue sur Laravel France
         @stop
     </title>
     <script src="/js/modernizr.js"></script>
     <script src="/js/zepto.min.js"></script>
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/app.css">
 </head>
 <body class="@yield('page_class') preload">
-
     <header>
         <nav>
             <h1 class="title">
-                <a href="/">Laravel France</a>
+                <a href="{{ Config::get('app.url') }}"><img src="/img/laravel_logo.png" alt="Laravel logo"> Laravel France</a>
             </h1>
-
-            <ul>
-                <li @if(Request::is('/'))class='active'@endif><a href="/"><i class="icon-home"></i>Accueil</a></li>
-                <li><a href="#"><i class="icon-book"></i> Documentation</a></li>
+            <ul class="menu">
+                <li><a href="{{ URL::action('\Lvlfr\Documentation\Controller\DocumentationController@showDocs') }}" @if(Request::is('docs.*'))class='active'@endif><i class="icon-book"></i> Documentation</a></li>
                 <li>
                     <a href="#"><i class="icon-group"></i> Communauté</a>
                     <ul>
@@ -32,24 +29,20 @@
                     </ul>
                 </li>
                 <li><a href="#"><i class="icon-github-sign"></i> Github</a></li>
-                <li @if(Request::is('contact*'))class='active'@endif><a href="{{ URL::action('Lvlfr\Website\Controller\ContactController@getIndex') }}"><i class="icon-envelope"></i> Contact</a></li>
+                <li @if(Request::is('contact*'))class='active'@endif><a href="{{ URL::action('Lvlfr\Website\Controller\ContactController@getIndex', null, true) }}"><i class="icon-envelope"></i> Contact</a></li>
             </ul>
         </nav>
-        <div class="clear"></div>
     </header>
-
-    <div id="page" class="container">
+    <div id="page">
         @yield('content')
-
-        <footer>
-            @yield('footer')
-        </footer>
-    </div>
+    </div><!--/.container-->
+    <footer>
+        @yield('footer')
+    </footer>
+    <script>
+    $(document).ready(function() {
+        $('body').removeClass('preload');
+    });
+    </script>
 </body>
 </html>
-
-<script>
-$(document).ready(function() {
-    $('body').removeClass('preload');
-});
-</script>

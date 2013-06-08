@@ -1,22 +1,19 @@
 @extends('base.layout')
 
 @section('content')
-<div class="fixedWithPage" id="indexPage">
-
-    <section>
-        <header>
-            <h2><a href="#">En direct du blog</a></h2>
-        </header>
+<div class="orangebox">
+    <div class="container">
+        <h2>En direct du blog</h2>
         <ul>
-            <li>Titre du billet <small>le xx/xx/xx</small></li>
-            <li>Titre du billet <small>le xx/xx/xx</small></li>
-            <li>Titre du billet <small>le xx/xx/xx</small></li>
-            <li>Titre du billet <small>le xx/xx/xx</small></li>
-            <li>Titre du billet <small>le xx/xx/xx</small></li>
+            <li>Titre du billet le xx/xx/xx</li>
+            <li>Titre du billet le xx/xx/xx</li>
+            <li>Titre du billet le xx/xx/xx</li>
+            <li>Titre du billet le xx/xx/xx</li>
         </ul>
-    </section>
+    </div>
+</div>
 
-
+<div class="container" id="indexPage">
     <section>
         <header>
             <h2>Un framework PHP élégant, puissant et robuste</h2>
@@ -28,7 +25,5 @@
     </section>
 
     {{-- TODO: Finish the page --}}
-
-
 </div>
 @stop
